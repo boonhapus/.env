@@ -1,0 +1,16 @@
+{
+    "$_INFO": [
+        "This is a comment, it is just used as metadata.",
+        "------------------------------------------------",
+        "NOTES",
+        "- variables may be used with the delayed expansion syntax",
+        "- SPECIAL VARIABLES offered...",
+        "  $project_root : directory - this repository's root directory",
+        "  $application_root : directory - the given application's root directory in this repo",
+        "------------------------------------------------",
+        "LOCAL : directory - where to find existing configuration files",
+        "REMOTE : directory - where to store configuration files"
+    ],
+    "LOCAL": "!APPDATA!/Sublime Merge/Packages/User",
+    "REMOTE": "!$project_root!/sublime-merge/Packages/User"
+}
