@@ -1,0 +1,3 @@
+[
+	{ "keys": ["insert"], "command": "noop" }
+]

@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"debug": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"A File Icon",
+		"AutoHotkey",
+		"BracketHighlighter",
+		"Guna",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-flake8",
+		"Theme - Gravity",
+		"TOML",
+	],
+	"repositories":
+	[
+	],
+}
