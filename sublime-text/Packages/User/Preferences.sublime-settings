@@ -10,21 +10,22 @@
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
-		".venv",
+		".*venv",
 		".ipynb_checkpoints",
 		"*.git",
-		"*.egg-info"
+		"*.egg-info",
+        "__pycache__"
 	],
-	"font_size": 12,
-	"gn_hide_tab_dropdown": true,
-	"gn_overlay_scroll_bars": true,
-	"gn_sidebar_box": true,
-	"gn_title_bar": true,
+	"font_size": 11,
+	/*"gn_hide_tab_dropdown": true,*/
+	/*"gn_overlay_scroll_bars": true,*/
+	/*"gn_sidebar_box": true,*/
+	/*"gn_title_bar": true,*/
 	/*"gnc_h10": true,*/
 	/*"gnc_m08": true,*/
 	/*"gnc_w2m12": true,*/
 	/*"gni_003": false,*/
-	"gnwidg1": true,
+	/*"gnwidg1": true,*/
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -59,4 +60,94 @@
 	/*"gnc_w2m12": true,*/
 	/*"gnc_m00": true,*/
 	/*"gnc_w2m13": true,*/
+	/*"gnc_h14": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_w2m14": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_h14": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_w2m14": true,*/
+	"gn_overlay_scroll_bars": true,
+	"gn_sidebar_box": true,
+	"gnwidg1": true,
+	/*"gnc_001": true,*/
+	"gn_hide_tab_dropdown": true,
+	"gn_title_bar": true,
+	/*"gnc_001": false,*/
+	/*"gnc_h16": true,*/
+	/*"gnc_m05": true,*/
+	/*"gnc_w0m14": true,*/
+	/*"gnc_h17": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w0m12": true,*/
+	/*"gnc_h22": true,*/
+	/*"gnc_m06": true,*/
+	/*"gnc_w0m15": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_h22": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnc_w4m15": true,*/
+	/*"gnc_m06": true,*/
+	/*"gnc_w6m12": true,*/
+	/*"gnc_h18": true,*/
+	/*"gnc_m07": true,*/
+	/*"gnc_w0m14": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_h11": true,*/
+	/*"gnc_m07": true,*/
+	/*"gnc_w1m10": true,*/
+	/*"gnc_h12": true,*/
+	/*"gnc_m09": true,*/
+	/*"gnc_w5m13": true,*/
+	/*"gnc_h10": true,*/
+	/*"gnc_m09": true,*/
+	/*"gnc_w5m15": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_002": false,*/
+	/*"gnc_h14": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w1m13": true,*/
+	/*"gni_001": false,*/
+	/*"gni_002": false,*/
+	/*"gni_003": false,*/
+	/*"gnc_w1m14": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_h11": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_w4m14": true,*/
+	/*"gnc_002": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnc_h10": true,*/
+	/*"gnc_m03": true,*/
+	/*"gnc_w5m13": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_w1m14": true,*/
+	/*"gnc_h14": true,*/
+	/*"gnc_m07": true,*/
+	/*"gnc_w1m13": true,*/
+	/*"gnc_m08": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_002": false,*/
+	/*"gnc_h11": true,*/
+	/*"gnc_m00": true,*/
+	/*"gnc_w6m14": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_h11": true,*/
+	/*"gnc_m06": true,*/
+	/*"gnc_w6m14": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_002": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_h13": true,*/
+	/*"gnc_m03": true,*/
+	/*"gnc_w5m13": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_h13": true,*/
+	/*"gnc_m07": true,*/
+	/*"gnc_w5m13": true,*/
+	"gnc_001": true,
+	"gnc_h13": true,
+	"gnc_m07": true,
+	"gnc_w5m15": true,
 }

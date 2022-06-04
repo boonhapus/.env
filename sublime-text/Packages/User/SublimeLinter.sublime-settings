@@ -6,7 +6,7 @@
 			"errors": ["BUG"]
 		},
 		"flake8": {
-            "executable": "c:/users/nick/appdata/roaming/python/python38/scripts/flake8.exe",
+            "executable": ["poetry", "run", "flake8"],
 			"args": [
 				/*
 				E114 - indentation is not a multiple of four (comment)
