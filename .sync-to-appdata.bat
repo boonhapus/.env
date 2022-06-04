@@ -1,6 +1,10 @@
 :: Name:     sync-to-repo
 :: Purpose:  syncs configuration files from an application to this repository
 ::
+:: Usage:
+::    .sync-to-appdata.bat sublime-text
+::    .sync-to-appdata.bat sublime-merge
+::
 @ECHO off
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
@@ -12,13 +16,12 @@ SET /A err_nondescript_failure=1
 SET me=%~n0
 SET parent=%~dp0
 
-:: PROGRAM BEGINS
-SET $project_root=%parent%
 
-CALL :jq .REMOTE "%project_root%/%1/vars.json"
+:: PROGRAM BEGINS
+CALL :jq .REMOTE "%parent%/%1/vars.json"
 SET source=%r%
 
-CALL :jq .LOCAL "%project_root%/%1/vars.json"
+CALL :jq .LOCAL "%parent%/%1/vars.json"
 SET destination=%r%
 
 :: Copy everything from the source to the destination, removing destination files and
